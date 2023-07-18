@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - print alphabet
- *
- * Return: 0 success
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
@@ -10,7 +9,7 @@ void print_alphabet_x10(void)
 	int j;
 
 	for (j = 1; i <= 10; i++)
-		for(j = 97; j <= 122; j++)
+		for (j = 97; j <= 122; j++)
 	{
 		_putchar(j);
 	}
